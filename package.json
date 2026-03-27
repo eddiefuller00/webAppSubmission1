@@ -2,7 +2,9 @@
   "name": "webappfinal",
   "version": "1.0.0",
   "scripts": {
-    "start-backend": "json-server --watch db.json --port 3000"
+    "start-backend": "json-server --watch db.json --port 5001",
+    "start-frontend": "npm --prefix frontend run dev",
+    "build-frontend": "npm --prefix frontend run build"
   },
   "dependencies": {
     "json-server": "^1.0.0-beta.12"

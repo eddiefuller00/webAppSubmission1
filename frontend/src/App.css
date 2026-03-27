@@ -1,0 +1,33 @@
+.todo-page {
+  min-height: 100vh;
+}
+
+.todo-shell {
+  max-width: 780px;
+}
+
+.todo-title {
+  color: #14213d;
+}
+
+.todo-card {
+  border-radius: 1rem;
+}
+
+.todo-item {
+  border-left: 0;
+  border-right: 0;
+}
+
+.todo-item:first-child {
+  border-top: 0;
+}
+
+.task-text {
+  font-size: 1rem;
+}
+
+.task-text.completed {
+  text-decoration: line-through;
+  color: #6c757d;
+}

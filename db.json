@@ -1,7 +1,15 @@
 {
   "todos": [
-    { "id": 1, "task": "Learn HTML", "completed": true },
-    { "id": 2, "task": "Learn CSS", "completed": true },
-    { "id": 3, "task": "Learn JavaScript", "completed": false }
-  ]
+    {
+      "id": "b732",
+      "task": "123123",
+      "completed": false
+    },
+    {
+      "id": "fd58",
+      "task": "123123",
+      "completed": false
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
